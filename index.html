@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITUM - Conference Day</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" >
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+0112124000" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">More Information :</p>
+
+            <p class="helpline-number">+ 0112 124 000</p>
+          </div>
+
+        </a>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" alt="ITUM logo">
+        </a>
+
+        <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.png" alt="Tourly logo">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li>
+              <a href="about.html" class="navbar-link" data-nav-link>about us</a>
+            </li>
+
+            <li>
+              <a href="#destination" class="navbar-link" data-nav-link>Tracks</a>
+            </li>
+
+            <li>
+              <a href="#package" class="navbar-link" data-nav-link>Packeges</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        
+        <a onclick="btn_primary()" class="btn btn-primary">Register</a>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title"> 3rd International Research Conference of ITUM - 2024 </h2>
+
+          <p class="hero-text">
+            "Exploring New Frontiers: Innovative and Cross-disciplinary 
+            Approaches to Sustainable Engineering Practices"
+          </p>
+
+          <div class="btn-group">
+            <a href="https://irc.itum.mrt.ac.lk/" class="btn btn-primary">Learn more</a>
+
+            <a onclick="btn_primary()" class="btn btn-secondary">Register</a>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOUR SEARCH
+      -->
+
+      <section class="tour-search">
+        <div class="container">
+
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">sessions</label>
+
+              <h1 class="h2 section-number"> 4 </h1>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Trackes</label>
+
+              <h1 class="h2 section-number"> 4 </h1>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">speakers</label>
+
+            <h2 class="h2 section-number"> 4 </h2>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">capacity</label>
+
+              <h1 class="h2 section-number"> 1000 </h1>
+            </div>
+
+            
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TRACKS
+      -->
+
+      <section class="popular" id="destination">
+        <div class="container">
+
+          <p class="section-subtitle">ITUM</p>
+
+          <h2 class="h2 section-title">Tracks</h2>
+
+          <p class="section-text">
+            ITUM-RU cordially invites local as well as foreign scholars from all disciplines 
+            to contribute their insights and research findings to foster collaboration and advance the frontiers of sustainable engineering in the following tracks.
+          </p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-5.jpg" alt="San miguel, italy" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Track 1</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Sustainable Infrastructure and Mechanical Systems.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-6.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Track 2</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Renewable Energy Systems and Smart Grid Technologies.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-7.jpg" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Track 3</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Digital Solutions for Sustainable Engineering.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">More Trackes</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">Conference Registration</p>
+
+          <h2 class="h2 section-title">Checkout Our Packeges</h2>
+
+          <p class="section-text">
+            Payment Instructions: <br>
+            Mention your NIC during the deposit as a reference. <br>
+            Attach the bank slip to the registration form, clearly indicating the name of the participant.
+          </p>
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/presenter 3.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Presenters (local):</h3>
+
+                  <p class="card-text">
+                    Mode of Payment : Bank Transfer <br>
+                    Bank Name	: Bank of Ceylon <br>
+                    Account Name	: Institute of Technology University of Moratuwa <br>
+                    Account Number	: 83062337 <br>
+                    SWIFT Code	: BCEYLKLX 0568 <br>
+                    Branch	: Homagama branch 
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">T.A.G Gunesekara</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(25 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    LKR 5000
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary" onclick="redirectToLogin()">Register</button>
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/presenter 4.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Presenters (foreign):</h3>
+
+                  <p class="card-text">
+                    Mode of Payment : Bank Transfer <br>
+                    Bank Name	: Bank of Ceylon <br>
+                    Account Name	: Institute of Technology University of Moratuwa <br>
+                    Account Number	: 83062337 <br>
+                    SWIFT Code	: BCEYLKLX 0568 <br>
+                    Branch	: Homagama branch 
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">T.A.G</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(20 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    USD 50
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary" onclick="redirectToLogin()">Register</button>
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/Participants.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Participants (local):</h3>
+
+                  <p class="card-text">
+                    Mode of Payment : Bank Transfer <br>
+                    Bank Name	: Bank of Ceylon <br>
+                    Account Name	: Institute of Technology University of Moratuwa <br>
+                    Account Number	: 83062337 <br>
+                    SWIFT Code	: BCEYLKLX 0568 <br>
+                    Branch	: Homagama branch 
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 600</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">T.A.G </p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(40 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    LKR 2000
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary" onclick="redirectToLogin()">Register</button>
+
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">View All Packages</button>
+
+        </div>
+      </section>
+
+
+
+            <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">Conference Speeches</p>
+
+          <h2 class="h2 section-title">Speeches</h2>
+
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/popular-3.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="section-subtitle">Keynote Speech</p>
+                  <h3 class="h3 card-title">Dr. Ishara Dharmasena</h3>
+
+                  <p class="card-text">
+                    Topic : <br> Super-Smart Textiles: A Cross-Disciplinary Journey
+                    Towards Future Wearable Technologies
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">9.40 am - 10.10 am</p>
+                      </div>
+                    </li>
+
+                    
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">T.A.G Gunesekara</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+                    <figure class="card-banner">
+                      <img src="./assets/images/Ishara_Dharmasena_1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                    </figure>
+                  </div>
+
+                    
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/popular-2.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="section-subtitle">Special Speech</p>
+                  <h3 class="h3 card-title">Assoc. Prof. W. B. M. Thoradeniya</h3>
+
+                  <p class="card-text">
+                    Topic : <br> Multiple Intelligence and Sustainability
+                    in the Engineering Industry
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">10.20 am - 10.50 am</p>
+                      </div>
+                    </li>
+
+                    
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">T.A.G Gunesekara</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+                    <figure class="card-banner">
+                      <img src="./assets/images/wbmt.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                    </figure>
+                  </div>
+                    
+
+                    
+                </div>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+          <button class="btn btn-primary">View All Speach</button>
+
+        </div>
+      </section>
+
+
+
+
+
+    
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h2 class="h2 section-title">Gear Up for a Day of Innovation and Collaboration. Shape the Future with Us!</h2>
+
+            <p class="section-text">
+              "Exploring New Frontiers: Innovative and Cross-disciplinary Approaches to Sustainable Engineering Practices.
+            </p>
+          </div>
+
+          <button class="btn btn-secondary" onclick="call()">Contact Us !</button>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="ITUM logo">
+          </a>
+
+          <p class="footer-text">
+            INSTITUTE OF TECHNOLOGY <br>
+            University of Moratuwa,<br>
+            Diyagama,<br>
+            Homagama,<br>
+            Sri Lanka.
+        </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">CONTACT INFO</h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+94112124000" class="contact-link"> (+94) 112 124 000</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info@itum.mrt.ac.lk" class="contact-link">info@itum.mrt.ac.lk</a>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Subscribe our newsletter for more update & news !!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="">22IT0499 </a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

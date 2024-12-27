@@ -1,0 +1,148 @@
+/*-----------------------------------*\
+ * #style.css
+\*-----------------------------------*/
+
+
+/*-----------------------------------*\
+ * #CUSTOM PROPERTY
+\*-----------------------------------*/
+
+:root {
+
+    /**
+     * colors
+     */
+  
+    --united-nations-blue: rgba(8,92,65,255);
+    --bright-navy-blue:rgb(152,16,4);
+    --spanish-gray: hsl(0, 0%, 60%);
+    --black-coral: hsl(225, 8%, 42%);
+    --oxford-blue: hsl(208, 97%, 12%);
+    --yale-blue: hsl(214, 72%, 33%);
+    --blue-ncs: hsl(197, 100%, 36%);
+    --gunmetal: hsl(206, 34%, 20%);
+    --gainsboro: hsl(0, 0%, 88%);
+    --cultured: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --onyx: hsl(0, 0%, 25%);
+    --jet: hsl(0, 0%, 20%);
+  
+    /**
+     * typography
+     */
+  
+    --ff-poppins: "Poppins", sans-serif;
+    --ff-montserrat: "Montserrat", sans-serif;
+  
+    --fs-1: calc(20px + 3.5vw);
+    --fs-2: calc(18px + 1.6vw);
+    --fs-3: calc(16px + 0.45vw);
+    --fs-4: 15px;
+    --fs-5: 14px;
+    --fs-6: 13px;
+    --fs-7: 12px;
+    --fs-8: 11px;
+    --fs-9: calc(20px + 1.6vw);
+  
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+  
+    /**
+     * transition
+     */
+  
+    --transition: 0.25s ease-in-out;
+  
+    /**
+     * spacing
+     */
+  
+    --section-padding: 60px;
+  
+    /**
+     * border-radius
+     */
+  
+    --radius-15: 15px;
+    --radius-25: 25px;
+  
+  }
+  
+/*-----------------------------------*\
+ * #title
+\*-----------------------------------*/
+
+    body{
+    background: var(--white);
+    
+    }
+
+    html {
+    font-family: var(--ff-poppins);
+    scroll-behavior: smooth;
+  }
+
+  .title-header{
+        background: var(--bright-navy-blue);
+        padding-block: 50px;
+        justify-content: center;
+        color: var(--white);
+        text-align: center;
+        font-size: var(--fs-1);
+        text-transform: uppercase;
+  }
+
+  .text-formatted .para{
+    text-align: justify; 
+    margin: 0 auto;       
+    max-width:  70%;     
+    line-height: 1.5; 
+  }
+
+  .text-formatted .text-align-justify{
+    text-align: justify; 
+    margin: 0 auto;       
+    max-width:  80%;     
+    line-height: 1.5;
+
+  }
+
+  .footer-bottom-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+  }
+  
+  .footer {
+    --gunmetal: hsl(205, 36%, 17%);
+    background: var(--gunmetal);
+    padding-block: 20px;
+    text-align: center;
+  }
+  
+  .footer-bottom-list > li { position: relative; }
+  
+  .footer-bottom-list > li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: -10px;
+    bottom: 3px;
+    width: 1px;
+    background: hsla(0, 0%, 100%, 0.2);
+  }
+  
+  .footer-bottom-link {
+    color: var(--gainsboro);
+    font-size: var(--fs-7);
+    transition: var(--transition);
+  }
+  
+  .footer-bottom-link:is(:hover, :focus) { color: var(--white); }
+
+ 
+  
